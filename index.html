@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWeb | portfolio 2022</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    
+</head>
+
+<body>
+    <header>
+        <div class="progess" id="progress"></div>
+        <a href="#" class="logo">
+            <span> < </span>
+            <span>/</span>
+            <span>></span>
+        </a>
+        <div class="toggle" onclick="toggleMenu()"> 
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu">
+            <li class="links"><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li class="links"><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li class="links"><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li class="links"><a href="#work" onclick="toggleMenu()">Work</a></li>
+            <li class="links"><a href="#testimonial" onclick="toggleMenu()">Testimonials</a></li>
+            <li class="links"><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+        </ul>
+    </header>
+    
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2 >Je suis <span class="textAnim"></span></h2>   
+            <p>développeur front-end : dev web, application mobile</p>       
+            <div class="media-container">
+                <div class="medias-btn"><i class="fa-brands fa-github"></i></div>
+                <div class="medias-btn"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="medias-btn"><i class="fa-brands fa-instagram"></i></div>
+                <div class="medias-btn"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="medias-btn"><i class="fa-brands fa-facebook-f"></i></div>
+            </div>
+            <a href="#about" class="btn">decouvrir</a> 
+        </div>
+        
+        <a href="#" class="ancre"><i class="fa-solid fa-arrow-up"></i></a>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>à <span>p</span>ropos de moi</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Front End Web developer.</h3>
+                <p>
+                    Phosfluorescently target superior opportunities after cross-unit portals.
+                    Quickly administrate fully researched testing procedures before visionary
+                    internal or "organic" sources. Dynamically recaptiualize empowered potentialities
+                    distinctive best practices. Dramatically recaptiualize enterprise-wide outsourcing
+                    via value-added resources. Credibly conceptualize installed base outsourcing after
+                    distinctive best practices. Dramatically recaptiualize enterprise-wide outsourcing
+                 
+                    <br><br>
+                    Phosfluorescently target superior opportunities after cross-unit portals.
+                    Quickly administrate fully researched testing procedures before visionary
+                    internal or "organic" sources. Dynamically recaptiualize empowered potentialities
+                    internal or "organic" sources. Dynamically recaptiualize empowered potentialities
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iure quas unde 
+                  
+                    
+                </p>
+                
+            </div>
+            <div class="imgbx w50">
+                <img src="./images/oumi3.png" alt="About me" class="profile">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Mes Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./images/icon1.png" alt="design">
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Necessitatibus similique mollitia quam facere optio </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon2.png" alt="Web design">
+                <h2>Web Developpment</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Necessitatibus similique mollitia quam facere optio </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon3.png" alt="Web design">
+                <h2>Android App</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Necessitatibus similique mollitia quam facere optio </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon4.png" alt="Web design">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Necessitatibus similique mollitia quam facere optio </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon5.png" alt="Web design">
+                <h2>Content writing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Necessitatibus similique mollitia quam facere optio </p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/icon6.png" alt="Web design">
+                <h2>Video editing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Necessitatibus similique mollitia quam facere optio </p>
+            </div>
+        </div>
+    </section>
+    <section class="projets" id="work">
+        <div class="heading">
+            <h2>Mes <span>p</span>rojets</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="project-filter">
+
+                    <span class="filter_item active" data-filter="*">tout</span>
+                    <span class="filter_item" data-filter="web">web</span>
+                    <span class="filter_item" data-filter="app">app</span>
+                    <span class="filter_item" data-filter="challenge">challenges</span>
+                </div>
+            </div>
+            <div class="rowb">
+                <div class="box web">
+                    <img src="./images/a1.jpg" alt="">
+                    <div class="box_info">
+                        <h4>web 1</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="links">
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box web">
+                    <h1>web 2</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="box web">
+                    <h1>web 3</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="box web">
+                    <h1>web 4</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="box app">
+                    <h1>app 1</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="box app">
+                    <h1>app 2</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            
+                <div class="box challenge">
+                    <h1>challenge 1</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="box challenge">
+                    <h1>challenge 2</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="box challenge">
+                    <h1>challenge 3</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="work" id="work">
+        <div class="heading">
+            <h2>Mes projets</h2>
+            <p>Mes projets réalisé en tant que developpeur web!</p>
+        </div>
+
+        <div class="contentX">
+           
+            <div class="workBx">
+                <img src="./images/a1.jpg" alt="">
+                <div class="b_txt">
+                    <h1>le Titre</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                    <a href="#">Voir le projet</a>
+                </div>
+            </div>
+            <div class="workBx"><img src="./images/a2.jpg" alt=""></div>
+            <div class="workBx"><img src="./images/bg5.jpg" alt=""></div>
+            <div class="workBx"><img src="./images/bg4.jpg" alt=""></div>
+            <div class="workBx"><img src="./images/b1.jpg" alt=""></div>
+            <div class="workBx"><img src="./images/b2.jpg" alt=""></div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View more</a>
+        </div>
+    </section> -->
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Témoignages</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>
+                    Vous êtes une entreprise ou un particulier et vous aimerez créer
+                    votre site web pour vous faire connaitre dans le monde entier ?
+                    Votre problème est a moitié resolu car vous êtes à la bonne adresse ! 
+                    Soyez rassuré à present.
+                </p>
+                <h3>Contacter Moi <br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>
+                    Vous êtes une équipe de developeur ou un particulier dans le domaine de 
+                    la programmation et vous chercher un developeur front end pour travaillez sur 
+                    un ou plusieurs projets ? N'hesitez pas à me contacter pour béneficier de mes 
+                    compétence dans ce domaine. 
+                </p>
+                <h3> Contacter Moi <br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contacter Moi</h2>
+            <p>Vous pouvez me joindre ou me laisser un message par mail</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Abidjan, Côte d'Ivoire, <br>bingerville, Akandje</p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="icon"> <i class=" fa fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>05-54516932</p>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <div class="icon"><i class=" fa fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>coulibalyoumartc@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form action="./formulaire.php" method="POST" id="contact_form">
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="name" required>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send" class="form_control submit">
+                </form>
+            </div>
+            
+        </div>
+        
+        
+    </section>
+
+    <footer>
+        <p>Copyright &#169 2022 Oumar PortFolio. All Right Reserved. </p>
+    </footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./app.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js" integrity="sha512-E378bwaeZf1nwXeJGIwTB58A5gPt5jFU3u6aTGja4ZdRFJeo/N/REKnBgNZOZlH6JdnOPO98vg2AnSGaNfCMFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
